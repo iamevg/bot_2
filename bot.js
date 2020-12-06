@@ -4,7 +4,7 @@ const token = "1423055464:AAGkEeD8xwKcuWZg4hZ68Ko1MgGiK7V0MBs";
 const chatId = "@cryptocurrency_prices";
 const bot = new TelegramBot(token, { polling: true });
 const URL = "https://binance.com/api/v3/ticker/price";
-const time = 5000;
+const time = 60000;
 
 const taapi = require("taapi");
 const client = taapi.client("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV2Z2VuaXk4NzA1QGdtYWlsLmNvbSIsImlhdCI6MTYwNzE4MTE0MSwiZXhwIjo3OTE0MzgxMTQxfQ.CA6fW6K1_wrhWIvAOfC_xn1tyZtwlGGnu7kRLOmkyGk");
